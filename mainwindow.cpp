@@ -48,3 +48,11 @@ void MainWindow::on_btnDivide_clicked()
     ui->txtResult->setText(QString::number(result));
 }
 
+
+void MainWindow::on_btnModulus_clicked()
+{
+    firstNum = ui->txtFristNum->text().toInt();
+    secondNum = ui->txtSecondNum->text().toInt();
+    result = firstNum % secondNum;
+    ui->txtResult->setText(QString::number(result));
+}

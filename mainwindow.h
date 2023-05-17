@@ -24,6 +24,8 @@ private slots:
 
     void on_btnDivide_clicked();
 
+    void on_btnModulus_clicked();
+
 private:
     Ui::MainWindow *ui;
 };
