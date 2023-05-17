@@ -22,6 +22,8 @@ private slots:
 
     void on_btnMultiply_clicked();
 
+    void on_btnDivide_clicked();
+
 private:
     Ui::MainWindow *ui;
 };
