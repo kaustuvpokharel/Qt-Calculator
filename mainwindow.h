@@ -20,6 +20,8 @@ private slots:
 
     void on_btnSubstract_clicked();
 
+    void on_btnMultiply_clicked();
+
 private:
     Ui::MainWindow *ui;
 };
